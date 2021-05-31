@@ -146,7 +146,7 @@ def converter():
     print(endtxt)
     return endtxt
 
-def checkseq(a1l, a2l, a3l, data):
+def checkSeq(a1l, a2l, a3l, data):
     if a1l == a2l == a3l:
         return ''.join(a1l)
     else:
